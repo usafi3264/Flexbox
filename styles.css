@@ -37,12 +37,11 @@ nav {
     margin-right: 0;
 }
 .nav-left .menu-icon{
-    width: 22px;
+    width: 21px;
     margin-right: 25px;
 }
 .nav-left .logo{
-    width: 30px;
-    
+    width: 100px;
 }
 .nav-middle .mic-icon{
     width: 25px;
@@ -230,4 +229,10 @@ display: flex;
 }
 .side-video-list img{
     width: 100%;
+}
+.side-video-list .small-thumbnail{
+    flex-basis: 49%;
+}
+.side-video-list .vid-info{
+    flex-basis: 49%;
 }
